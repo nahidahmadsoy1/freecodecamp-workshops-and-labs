@@ -1,29 +1,15 @@
-# 💻 freeCodeCamp Python Workshops & Exercises
+# 💻 freeCodeCamp Python Workshops & Labs
 
-This repository contains practical workshops, algorithm challenges, and beginner-level projects completed as part of the **freeCodeCamp** Python curriculum.
-
----
-
-## 📚 Table of Contents
-* [Overview](#-overview)
-* [Workshop 1: Ticket Pricing & Conditional Logic](#-workshop-1-ticket-pricing--conditional-logic)
-* [Workshop 2: Employee Data Processing & String Manipulation](#-workshop-2-employee-data-processing--string-manipulation)
-* [Technologies Used](#-technologies-used)
+Practical Python exercises, algorithm challenges, and mini-projects completed as part of the **freeCodeCamp** Python curriculum.
 
 ---
 
-## 🎯 Overview
+## 🚀 Ticket Pricing & Employee Data Processing Script
 
-The goal of this repository is to document my Python learning journey, track progress through freeCodeCamp exercises, and showcase foundational programming concepts such as conditional logic, data types, string manipulation, and string slicing.
-
----
-
-## 🎟️ Workshop 1: Ticket Pricing & Conditional Logic
-
-### 📝 Overview
-Demonstrates control flow, multi-condition logic (`if-elif-else`), logical operators (`and`, `or`, `not`), and dynamic variable updates in a movie ticket booking system.
+Demonstrates control flow (`if-elif-else`), logical operators, dynamic variable updates, string concatenation, f-string formatting, and string slicing in a single script.
 
 ```python
+# Part 1: Ticket Pricing System
 base_price = 15
 age = 21
 seat_type = 'Gold'
@@ -72,3 +58,33 @@ if age >= 21 or age >= 18 and (show_time != 'Evening' or is_member):
     print('Final price of ticket:', final_price)
 else:
     print('Ticket booking failed due to restriction')
+
+
+# Part 2: Employee Data & String Manipulation
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main Street'
+address += ', Apartment 4B'
+employee_age = 28
+employee_info = full_name + ' is ' + str(employee_age) + ' years old'
+print(employee_info)
+
+experience_years = 5
+experience_info = 'Experience: ' + str(experience_years) + ' years'
+print(experience_info)
+
+position = 'Data Analyst'
+salary = 75000
+employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
+print(employee_card)
+
+employee_code = 'DEV-2026-JD-001'
+department = employee_code[0:3]
+print(department)
+
+year_code = employee_code[4:8]
+print(year_code)
+
+initials = employee_code
+print(initials)
