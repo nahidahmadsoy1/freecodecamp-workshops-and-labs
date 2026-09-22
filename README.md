@@ -1,15 +1,31 @@
 # 💻 freeCodeCamp Python Workshops & Labs
 
-Practical Python exercises, algorithm challenges, and mini-projects completed as part of the **freeCodeCamp** Python curriculum.
+> **Overview:** Practical Python exercises, algorithm challenges, and beginner-level projects completed as part of the freeCodeCamp Python curriculum.
 
 ---
 
-## 🚀 Ticket Pricing & Employee Data Processing Script
+## 📋 Table of Contents
+1. [Script Overview](#-script-overview)
+2. [Source Code](#-source-code)
+3. [Expected Output](#-expected-output)
+4. [Technologies Used](#-technologies-used)
 
-Demonstrates control flow (`if-elif-else`), logical operators, dynamic variable updates, string concatenation, f-string formatting, and string slicing in a single script.
+---
+
+## 📌 Script Overview
+
+This combined script covers two fundamental Python programming concepts:
+* **Ticket Pricing System:** Demonstrates conditional logic (`if-elif-else`), logical operators (`and`, `or`, `not`), and dynamic price calculation based on age, seat type, and showtimes.
+* **Employee Data Processing:** Covers string concatenation, type conversion (`str()`), formatted string literals (`f-strings`), and substring extraction using string slicing.
+
+---
+
+## 💻 Source Code
 
 ```python
+# ==========================================
 # Part 1: Ticket Pricing System
+# ==========================================
 base_price = 15
 age = 21
 seat_type = 'Gold'
@@ -60,7 +76,9 @@ else:
     print('Ticket booking failed due to restriction')
 
 
+# ==========================================
 # Part 2: Employee Data & String Manipulation
+# ==========================================
 first_name = 'John'
 last_name = 'Doe'
 full_name = first_name + ' ' + last_name
