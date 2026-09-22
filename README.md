@@ -5,14 +5,14 @@
 ---
 
 ## 📋 Table of Contents
-1. [Script Overview](#-script-overview)
-2. [Source Code](#-source-code)
-3. [Expected Output](#-expected-output)
-4. [Technologies Used](#-technologies-used)
+1. [Script Overview](#script-overview)
+2. [Source Code](#source-code)
+3. [Expected Output](#expected-output)
+4. [Technologies Used](#technologies-used)
 
 ---
 
-## 📌 Script Overview
+## Script Overview
 
 This combined script covers two fundamental Python programming concepts:
 * **Ticket Pricing System:** Demonstrates conditional logic (`if-elif-else`), logical operators (`and`, `or`, `not`), and dynamic price calculation based on age, seat type, and showtimes.
@@ -20,7 +20,7 @@ This combined script covers two fundamental Python programming concepts:
 
 ---
 
-## 💻 Source Code
+## Source Code
 
 ```python
 # ==========================================
